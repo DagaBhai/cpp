@@ -51,6 +51,7 @@ int main(){
     return 0;
 }
 */
+
 int main(){
     //Assignment initialization 
     int dog_count = 10;//initinalizer to 10
