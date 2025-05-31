@@ -23,7 +23,9 @@ int main(int argc, char*argv[]){
     string str;
 
     if(argc>1){
-        str = argv[1];
+        for (int i = 1; i < argc; ++i) {
+            str += argv[i];
+        }
     }
 
     else{
